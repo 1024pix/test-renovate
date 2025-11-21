@@ -13,7 +13,8 @@
         "image: redis:(?<currentValue>.*)-alpine"
       ],
       "depNameTemplate": "redis",
-      "datasourceTemplate": "custom.scalingo-redis"
+      "datasourceTemplate": "custom.scalingo-redis",
+      "versioningTemplate": "docker"
     }
   ]
 }

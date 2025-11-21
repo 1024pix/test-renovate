@@ -13,7 +13,8 @@
         "image: postgres:(?<currentValue>.*)-alpine"
       ],
       "depNameTemplate": "postgres",
-      "datasourceTemplate": "custom.scalingo-postgres"
+      "datasourceTemplate": "custom.scalingo-postgres",
+      "versioningTemplate": "docker"
     }
   ]
 }

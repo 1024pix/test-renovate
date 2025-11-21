@@ -1,4 +1,5 @@
 {
+  "name": "Test",
   "addons": [
     {
       "plan": "postgresql:postgresql-sandbox",
