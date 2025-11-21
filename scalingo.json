@@ -1,0 +1,17 @@
+{
+  "addons": [
+    {
+      "plan": "postgresql:postgresql-sandbox",
+      "options": {
+        "version": "15.13"
+      }
+    },
+    {
+      "plan": "redis:redis-sandbox",
+      "options": {
+        "version": "7.2.9"
+      }
+    }
+  ]
+}
+
