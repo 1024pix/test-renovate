@@ -7,7 +7,7 @@
       "enabled": false
     },
     {
-      "matchDepTypes": ["postgres", "redis"],
+      "matchPackageNames": ["postgres", "redis"],
       "matchDatasources": ["scalingo-postgres", "scalingo-redis"],
       "automerge": false
     }
